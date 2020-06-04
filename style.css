@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/VvHazk.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height:auto
+}
+section{
+    height: 600px;
+}
+
+.second-bar{
+    background-color: rgb(42, 180, 37);
+    text-align: center;
+
+}
+.second-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(45, 172, 66);
+}
+.second-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.second-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.second-bar ul li:hover{
+    background:#2bab0d;
+    border-radius: 3px;
+}
+.second-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-2{
+    display: none;
+}
+.second-bar ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background: rgb(55, 167, 55);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.second-bar ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin: 10px;
+
+}
+.second-bar ul li:hover .sub-menu-2 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.second-bar ul li:hover .sub-menu-2 ul li:last-child{
+    border-bottom: none;
+}  
+footer p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40%;
+
+}
